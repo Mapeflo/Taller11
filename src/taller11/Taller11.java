@@ -4,17 +4,13 @@
  */
 package taller11;
 
-/**
- *
- * @author marya
- */
+
+
 public class Taller11 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-       
+       // error: Empleado es una clase abstracta y no se puede instanciar directacmente.
+        Empleado empleado = new Empleado("Maria Florez");
     }
     
 }

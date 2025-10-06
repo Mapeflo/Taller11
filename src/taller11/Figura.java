@@ -10,9 +10,16 @@ package taller11;
  */
 public abstract class Figura {
     
+    String nombreFigura;
+
+    public Figura(String nombreFigura) {
+        this.nombreFigura = nombreFigura;
+    }
+    
     public abstract double calcularArea();
     
     public void mostrarArea(){
+        System.out.println("Nombre de la figura: " + nombreFigura);
         System.out.println("El area de la figura es: " + calcularArea());
     }   
 }

@@ -13,11 +13,12 @@ public class Rectangulo extends Figura {
     double base;
     double altura;
 
-    public Rectangulo(double base, double altura) {
+    public Rectangulo(double base, double altura, String nombreFigura) {
+        super(nombreFigura);
         this.base = base;
         this.altura = altura;
     }
-    
+
     @Override
     public double calcularArea (){
         double area = base*altura;

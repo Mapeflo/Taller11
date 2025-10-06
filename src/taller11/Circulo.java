@@ -11,8 +11,9 @@ package taller11;
 public class Circulo extends Figura {
 
    double radio;
-   
-    public Circulo(double radio) {
+
+    public Circulo(double radio, String nombreFigura) {
+        super(nombreFigura);
         this.radio = radio;
     }
    
